@@ -10,7 +10,7 @@
         <h1>Pesquisa Online</h1>
         <section>
             <form action="" method="get">
-                <fieldset>
+               <!--  <fieldset>
                     <legend>Dados Pessoais</legend>
                     <label for="userName" >Nome</label>
                     <input type="text" name="userName" placeholder="Digite seu nome aqui" required>
@@ -32,7 +32,63 @@
                     <br>
                     <button type="submit">Enviar</button>
                     <button type="reset">Limpar</button>
-                </fieldset>
+                </fieldset> -->
+            <fieldset>
+                <legend>Perfil</legend>
+                <p>Gênero:</p>
+                <input type="radio" name="UserGender" value="Feminino">
+                <label for="UserGender">Feminino</label>
+
+                <input type="radio" name="UserGender" value="Masculino">
+                <label for="UserGender">Masculino</label>
+
+                <input type="radio" name="UserGender" value="Prefiro Não Informar">
+                <label for="UserGender">Prefiro Não Informar</label>
+                <br>
+                <label for="maritalStatus">Estado Civil:</label>
+                <select name="maritalStatus">
+                    <option value="notInformed">Selecione...</option>
+                    <option value="Casado">Casado</option>
+                    <option value="Solteiro">Solteiro</option>
+                    <option value="Divorciado">Divorciado</option>
+                    <option value="União Estável">União Estável</option>
+                </select>
+                <label for="userState">Estado</label>
+                <select required>
+                    <label for="userState">Estado</label>
+                    <option value="notInformed">Selecione...</option>
+                    <option value="acre">Acre </option>
+                    <option value="alagoas">Alagoas</option>
+                    <option value="amapa">Amapá</option>
+                    <option value="amazonas">Amazonas</option>
+                    <option value="bahia">Bahia</option>
+                    <option value="ceara">Ceará</option>
+                    <option value="distritoFederal">Distrito Federal</option>
+                    <option value="espiritoSanto">Espirito Santo</option>
+                    <option value="goias">Goiás</option>
+                    <option value="maranhao">Maranhão</option>
+                    <option value="matoGrossoDoSul">Mato Grosso do Sul</option>
+                    <option value="matoGrosso">Mato Grosso</option>
+                    <option value="minasGerais">Minas Gerais</option>
+                    <option value="para">Pará</option>
+                    <option value="paraiba">Paraíba</option>
+                    <option value="parana">Paraná</option>
+                    <option value="pernambuco">Pernambuco</option>
+                    <option value="piaui">Piauí</option>
+                    <option value="rioDeJaneiro">Rio de Janeiro</option>
+                    <option value="rioGrandeDoNorte">Rio Grande do Norte</option>
+                    <option value="rioGrandeDoSul">Rio Grande do Sul</option>
+                    <option value="rondonia">Rondônia</option>
+                    <option value="roraima">Roraima</option>
+                    <option value="santaCatarina">Santa Catarina</option>
+                    <option value="saoPaulo">São Paulo</option>
+                    <option value="sergipe">Sergipe</option>
+                    <option value="tocantins">Tocantins</option>
+                </select>
+                    <label for="userCity">Cidade</label>
+                    <input type="text" name="userCity" placeholder="Digite sua cidade aqui">
+            </fieldset>
+            <button>Enviar</button>
             </form>
         </section>
     </header>
