@@ -119,7 +119,28 @@
                     <label for="favoritColor">Cor Favorita</label>
                     <input type="color" id="favoritColor" name="userFavoritColor">
                 </fieldset>
+                <fieldset>
+                    <legend>Comentários</legend>
 
+                    <label>Qual seu nível de satisfação?</label>
+
+                    <input id="satisfaction" type="radio" name="UserSatisfaction" value="Ótimo">
+                    <label for="satisfaction">Ótimo</label>
+
+                    <input id="satisfaction" type="radio" name="UserSatisfaction" value="Bom">
+                    <label for="satisfaction">Bom</label>
+
+                    <input id="satisfaction" type="radio" name="UserSatisfaction" value="Regular">
+                    <label for="satisfaction">Regular</label>
+
+                    <input id="satisfaction" type="radio" name="UserSatisfaction" value="Ruim">
+                    <label for="satisfaction">Ruim</label>
+                    
+                    <br>
+                    <label for="comments">Deixe aqui suas sugestões ou críticas:</label>
+                    <br>
+                    <textarea id="comments" name="userComments" rows="4" cols="50" placeholder="Digite seus comentários aqui..."></textarea>
+                </fieldset>
                 <button type="submit">Enviar</button>
                 <button type="reset">Limpar</button>
             </form>
