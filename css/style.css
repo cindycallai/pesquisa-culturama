@@ -1,1 +1,44 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f9f9f9;
+}
+main{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+header{
+    margin-bottom: 20px;
+}
+img{
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 100px;
+    height: auto;
+}
+h1{
+    text-align: center;
+    font-family: "Fajjar One", sans-serif;
+}
+form{
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+}
+fieldset{
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+legend{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 5px;
+}
