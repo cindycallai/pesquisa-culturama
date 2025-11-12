@@ -104,3 +104,13 @@ button[type="reset"]:hover{
     background-color: orangered;
     color: white;
 }
+input[type="tel"],
+input[type="file"]{
+    margin-bottom: 0;
+}
+small{
+    display: block;
+    margin-bottom: 5px;
+    color: #666666;
+    font-size: 12px;
+}
